@@ -45,6 +45,7 @@ const Signin = () => {
                     type="email"
                     className="form-control"
                     value={email}
+					required
                 />
             </div>
 
@@ -55,6 +56,7 @@ const Signin = () => {
                     type="password"
                     className="form-control"
                     value={password}
+					required
                 />
             </div>
             <button onClick={clickSubmit} className="btn btn-primary">
